@@ -16,9 +16,7 @@ app = Flask(__name__)
 
 part_02_model = lm('Backend/imageclassifier.h5')
 
-@app.route('/')
-def home():
-    return render_template('index.html')
+
 
 @app.route('/obects', methods=['GET', 'POST'])
 def part_02():
