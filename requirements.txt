@@ -17,4 +17,4 @@ Pillow==9.2.0
 Werkzeug==2.2.2
 pybase64==1.2.3
 opencv-python>=4.5.0.0
-jsonlib>=1.4.1
+jsonlib==1.6.1
