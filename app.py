@@ -12,7 +12,7 @@ from PIL import Image
 import Backend.color_detector as cd
 
 app = Flask(__name__)
-# CORS(app)
+CORS(app)
 
 part_02_model = lm('Backend/imageclassifier.h5')
 
