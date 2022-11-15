@@ -6,7 +6,7 @@ scipy>=0.15.1
 scikit-learn>=0.18
 matplotlib>=1.4.3
 pandas>=0.19
-imageio==2.21.4
+imageio>=2.20.0
 io==0.2.6
 h5py==3.7.0
 keras==2.10.0
